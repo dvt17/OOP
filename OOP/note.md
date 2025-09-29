@@ -1,0 +1,2 @@
+- struct mặc định là public nên sẽ có truy cập từ bên ngoài default: public
+- class nếu không có public thì sẽ kh thể khai báo ở bên ngoài default: private
