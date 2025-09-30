@@ -13,3 +13,20 @@
 - C = Conflicted (xung đột khi merge).
 
 - R = Renamed (file đã đổi tên).
+
+## Chạy lệnh
+
+### Win
+
+```bash
+g++ main.cpp MyRectangle.cpp -o main.exe
+.\main.exe
+
+```
+
+### MAC
+
+```bash
+g++ main.cpp MyRectangle.cpp -o main.exe
+./main.exe
+```
