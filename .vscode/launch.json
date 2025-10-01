@@ -1,0 +1,32 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug C/C++",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "d:\\Mang_May_Tinh_Va_Truyen_Thong_Du_Lieu\\UTH\\Lap_Trinh_Huong_Doi_Tuong\\OOP\\oop\\oop_debug.exe",
+            "args": [],
+            "stopAtEntry": true,
+            "cwd": "d:\\Mang_May_Tinh_Va_Truyen_Thong_Du_Lieu\\UTH\\Lap_Trinh_Huong_Doi_Tuong\\OOP\\oop",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "gdb",
+            "miDebuggerPath": "gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+                {
+                    "description": "Set Disassembly Flavor to Intel",
+                    "text": "-gdb-set disassembly-flavor intel",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "",
+            "internalConsoleOptions": "openOnSessionStart"
+        }
+    ]
+}

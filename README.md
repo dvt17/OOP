@@ -2,6 +2,8 @@
 
 ## Lập trình hướng đối tượng
 
+### Các kí hiệu về trạng thái file
+
 - A = Added (file đã git add, chuẩn bị commit).
 
 - U = Untracked (file mới, chưa add vào Git).
