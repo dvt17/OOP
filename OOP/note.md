@@ -8,3 +8,8 @@
   - Cấp phát tĩnh sẽ bị sao sau khi ra khỏi scope của nó
   - Cấp phát động phải khởi tạo hàm hủy mới xóa được
 - Hàm có static đằng trước thì không cần khởi tạo object, nó không gọi được đến biến thành viên, cần khởi tạo nó theo biến global
+- Tính đóng gói:
+  - Liên quan tới thuộc tính thì private
+  - Phương thức thì public (setter, getter)
+- Tính trừu tượng:
+  - 
