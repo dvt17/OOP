@@ -11,5 +11,8 @@
 - Tính đóng gói:
   - Liên quan tới thuộc tính thì private
   - Phương thức thì public (setter, getter)
-- Tính trừu tượng:
-  - 
+- Tính trừu tượng
+- Tính kế thừa:
+  - Chỉ sự việc class sẽ kế thừa các thông tin các thuộc tính của class khác
+  - Không thể kế thừa từ lớp private
+  
